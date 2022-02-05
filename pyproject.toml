@@ -2,8 +2,8 @@
 requires = [
     "setuptools",
     "wheel",
-    "scikit-build>=0.13",
+    "scikit-build @ git+https://github.com/henryiii/scikit-build@henryiii/fix/logger",
     "ninja",
     "cmake>=3.16",
-    "pybind11>=2.8.1"
+    "pybind11>=2.9.1",
 ]
